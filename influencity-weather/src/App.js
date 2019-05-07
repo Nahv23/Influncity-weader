@@ -1,12 +1,14 @@
 import React from 'react';
-import Header from './components/Header';
 
 import './App.css';
+import Header from './components/Header';
+import Weather from './components/Weather';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
+      <Weather></Weather>
     </div>
   );
 }
