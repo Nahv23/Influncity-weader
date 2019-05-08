@@ -1,17 +1,8 @@
 import React, { Component } from 'react';
 
-//import data from '../data/data.json';
 import logo from '../cloudsIcon.png';
 
-
 class Weather extends Component {
-  
-  // constructor(){
-  //   super()
-  //   this.state = {
-  //     data:[]
-  //   }
-  // }
 
   state={
     data:[],
@@ -38,7 +29,7 @@ class Weather extends Component {
   render (){
     return (
       <div className="card ml-2 col-3 bg-light border-dark">
-        <div className="row no-gutters">
+        <div className="row no-gutters d-flex">
           <div className="card-body text-left">
           {this.state.data.map((item, index) => {
             return (
@@ -51,7 +42,7 @@ class Weather extends Component {
            
           </div>
           <div className="col-md mr-2">
-            <img src={logo} className="imageW" alt="weather"></img>
+            <img id="imagen" src={logo} className="imageW" alt="weather"></img>
           </div>
         </div>
     </div>
