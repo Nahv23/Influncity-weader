@@ -11,7 +11,7 @@ class Weather extends Component {
   }
 
   state = {
-    data:[]
+    data:''
   }
 
   getItems (){
@@ -29,9 +29,15 @@ class Weather extends Component {
       <div className="card ml-2 col-2 bg-light border-dark">
         <div className="row no-gutters">
           <div className="card-body text-left">
-            {/* <h5 className="card-title"> {this.state.data.list.name}</h5>
-            <h6 className="card-subtitle mb-2 text-muted">{this.state.data.list.sys.country}</h6>
-            <p className="card-text">{this.state.data.list.main.temp - 273,15} <span>ºC</span></p> */}
+          {this.state.data.map((item, index) => {
+            return (
+              <div  key={index}>
+                <h5 className="card-title"> {item.name}</h5>
+                <h6 className="card-subtitle mb-2 text-muted">{item.sys.country}</h6>
+                <p className="card-text">{item.main.temp} <span>ºC</span></p>
+              </div>
+          )} )}
+           
           </div>
           <div className="col-md">
             <img src={logo} className="imageW" alt="weather"></img>
