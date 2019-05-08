@@ -8,9 +8,8 @@ export default function Header (){
     return (
         <header className="navbar sm-6 mb-5">
           <img src={logo} className="App-logo" alt="logo" />
-            <p> Weather In: </p>
+            <p> WEATHER IN: </p>
         </header>
-        
     )
 }
 

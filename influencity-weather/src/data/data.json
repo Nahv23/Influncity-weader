@@ -1,39 +1,39 @@
 {
-  "message": "accurate",
-  "cod": "200",
-  "count": 1,
-  "list": {
-     "id": 2521886,
-     "name": "Almeria",
-     "coord": {
-        "lat": 36.8414,
-        "lon": -2.4629
-     },
-     "main": {
-        "temp": 289.95,
-        "pressure": 1014,
-        "humidity": 67,
-        "temp_min": 289.82,
-        "temp_max": 290.15
-     },
-     "dt": 1555692318,
-     "wind": {
-        "speed": 2.6,
-        "deg": 170
-     },
-     "sys": {
-        "country": "ES"
-     },
-     "rain": {},
-     "snow": {},
-     "clouds": {
-        "all": 40
-     },
-     "weather": {
-        "id": 802,
-        "main": "Clouds",
-        "description": "scattered clouds",
-        "icon": "03d"
-     }
-  }
+	"message": "accurate",
+	"cod": "200",
+	"count": 1,
+	"list": {
+		"id": 2521886,
+		"name": "Almeria",
+		"coord": {
+			"lat": 36.8414,
+			"lon": -2.4629
+		},
+		"main": {
+			"temp": 289.95,
+			"pressure": 1014,
+			"humidity": 67,
+			"temp_min": 289.82,
+			"temp_max": 290.15
+		},
+		"dt": 1555692318,
+		"wind": {
+			"speed": 2.6,
+			"deg": 170
+		},
+		"sys": {
+			"country": "ES"
+		},
+		"rain": {},
+		"snow": {},
+		"clouds": {
+			"all": 40
+		},
+		"weather": {
+			"id": 802,
+			"main": "Clouds",
+			"description": "scattered clouds",
+			"icon": "03d"
+		}
+	}
 }
